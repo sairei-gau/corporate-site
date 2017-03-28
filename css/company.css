@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+html {
+  font-size: 62.5%;
+}
+header {
+    background: #eaf2f4;
+    background-color: rgb(234, 242, 244);
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    display: block;
+}
+@media (min-width:550px) {
+    .container {
+        width: 80px;
+    }
+}
+@media (min-width: 550px) {
+    header #header_in {
+    padding: 15px 0 10px 0;
+}
+}
+body {
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222;
+}
+#sub_cover {
+    background-image: url("../images/news/sub_cover@2x.jpg");
+    padding: 40px 0;
+    background-size: cover;
+}
+@media (min-width: 550px) {
+    #sub_cover {
+        padding: 80px 0;
+    }
+}
+#sub_cover h2 {
+    text-align: center;
+    color: white;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 0.2rem;
+    line-height: 1.25;
+}
+@media (max-width: 550px) {
+    #sub_cover h2 {
+        font-size: 1.6rem;
+        line-height: 20px;
+    }
+}
+body {
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+@media (min-width: 550px) {
+.container {
+    width: 80%;
+  }
+}
+@media (min-width: 400px) {
+    .container {
+        width: 85%;
+        padding: 0;
+    }
+}
+@media (max-width: 550px) {
+  #contents #sidebar .pc_sidemenu {
+    display: none;
+  }
+  .fb-page {
+    display: inline-block;
+  }
+}
+@media (min-width: 550px) {
+    #contents {
+        padding-top: 35px;
+        padding-bottom: 70px;
+}
+    #contents #main {
+        padding-right: 20px;
+    }
+}
+#contents {
+    padding-top: 20px;
+}
+#contents #main h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 15px;
+    color: #42b9d0;
+    border-bottom: 3px solid #42b9d0;
+    line-height: 1.25;
+    letter-spacing: -.1rem;
+}
+@media (max-width: 550px) {
+    #contents #main h2 {
+        font-size: 15px;
+    }
+}
+#contents #main h2.company_title {
+    margin-bottom: 0px;
+}
+#contents #main .news_li li {
+    list-style: none;
+}
+#contents #main .news_li li span {
+    display: block;
+    margin-bottom: 0;
+    padding-right: 10px;
+    color: #42b9d0;
+    font-weight: bold;
+    list-style: none;
+}
+@media (min-width: 550px) {
+#contents #main .news_li li span {
+    display: inline-block;
+}
+}
+#contents #main td {
+    padding: 20px 0;
+    color: #626262;
+    font-size: 1.4rem;
+    text-align: left;
+    border-bottom: 1px solid #E1E1E1;
+    display: table-cell;
+    vertical-align: inherit;
+}
+#contents #main th {
+    padding-right: 20px 0;
+    color: #626262;
+    font-size: 1.4rem;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: table;
+    border-color: grey;
+}
+.u-full-width {
+    width: 100%;
+    box-sizing: border-box;
+}
+div {
+  display: block;
+}
+#contents #sidebar {
+    padding-bottom: 20px;
+}
+@media (min-width: 550px) {
+#sidebar.three.columns {
+  width: 22%;
+}
+.column, .columns {
+    margin-left: 4%;
+    float: left;
+    box-sizing: border-box;
+}
+pre, blockquote, dl, figure, table, p, ul, ol, form {
+    margin-bottom: 2.5rem;
+}
+ol, ul {
+    padding-left: 0;
+    margin-top: 0;
+}
+ul {
+    list-style: circle inside;
+}
+#contents #sidebar .pc_sidemenu h3 {
+    color: #42b9d0;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    background-color: #f3f9fb;
+    padding: 15px;
+    margin-bottom: 0px;
+    display: block;
+}
+#contents #sidebar .pc_sidemenu li {
+    list-style: none;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    margin-bottom: 0px;
+    padding: 10px 10px 10px 20px;
+    background-image: url(../images/news/side_arrow.png);
+    background-size: 4px 8px;
+}
+#contents #sidebar .pc_sidemenu li a:hover {
+    color: #42b9d0;
+}
+#contents #sidebar .pc_sidemenu li a {
+    color: #339fd1;
+    text-decoration: none;
+    background-color: transparent
+}
